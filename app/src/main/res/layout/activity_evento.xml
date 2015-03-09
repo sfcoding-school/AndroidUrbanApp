@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.urban.urbanapp.urbanapp2.EventoActivity">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imvBG_Main"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_bg1"
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/linearlayout"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/urban"
+                android:id="@+id/tvtitle"
+                android:layout_marginTop="15dp"
+                android:textColor="#ffffffff"
+                android:textSize="60sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/innerlinear"
+                android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titoloevento"
+                android:id="@+id/tvtitoloevento"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:textIsSelectable="true"
+                android:textSize="30sp"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/eventdate"
+                android:id="@+id/tvdataevento"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffffff"
+                android:textSize="25sp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IVAN SMAGGEHE"
+                    android:id="@+id/artista"
+                    android:fontFamily="sans-serif-light"
+                    android:background="#940c0c0c"
+                    android:textSize="30dp"
+                    android:padding="15dp"
+                    android:textColor="#fff9fff7"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_margin="15dp"
+                android:text="description"
+                android:id="@+id/descrizione"
+                android:textColor="#ffffffff"
+                android:background="#940c0c0c"
+                android:padding="15dp"
+                android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_margin="15dp"
+                    android:textSize="25dp"
+                    android:fontFamily="sans-serif-light"
+                    android:text="PREZZI"
+                    android:id="@+id/titoloprezzo"
+                    android:textColor="#ffffffff"
+                    android:background="#940c0c0c"
+                    android:padding="7dp"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal" />
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/linearlista">
+                    <TextView
+                        android:layout_weight="1.0"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_marginRight="7dp"
+                        android:textSize="25dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="In Lista\n6 €"
+                        android:id="@+id/tvprezzointero"
+                        android:textColor="#ffffffff"
+                        android:background="#940c0c0c"
+                        android:padding="7dp"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="15dp" />
+
+                    <TextView
+                        android:layout_weight="1.0"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textSize="25dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Intero\n8 €"
+                        android:id="@+id/tvprezzolista"
+                        android:textColor="#ffffffff"
+                        android:background="#940c0c0c"
+                        android:padding="7dp"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="METTIMI IN LISTA"
+                android:id="@+id/btninlista"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-light"
+                android:background="#940c0c0c"
+                android:textSize="30dp"
+                android:padding="15dp"
+                android:textColor="#fff9fff7"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/youtube"
+                android:textColor="#fff9fff7"
+                android:background="#91dd0000"
+                android:text="YouTube"
+                android:textSize="30dp"
+                android:padding="15dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/facebook"
+                android:textColor="#fff9fff7"
+                android:background="#91245edd"
+                android:text="Facebook"
+                android:textSize="30dp"
+                android:padding="15dp"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

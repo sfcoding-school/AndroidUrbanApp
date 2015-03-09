@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="it.urban.urbanapp.urbanapp2.MainActivity"
+    android:background="#000">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imvBG_Main"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_bg1"
+         />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/urban"
+            android:id="@+id/tvtitle"
+            android:textColor="#ffffffff"
+            android:textSize="60sp"
+            android:textIsSelectable="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="20dp" />
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:id="@+id/friday"
+            android:fontFamily="sans-serif-light"
+            android:background="@android:color/transparent"
+            android:textSize="50sp"
+            android:textColor="#fff9fff7"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="30dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:id="@+id/saturday"
+            android:fontFamily="sans-serif-light"
+            android:background="@android:color/transparent"
+            android:textSize="50sp"
+            android:textColor="#fff9fff7"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_margin="30dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bellaciao"
+            android:id="@+id/bellaciao"
+            android:fontFamily="sans-serif-light"
+            android:background="@android:color/transparent"
+            android:textSize="50sp"
+            android:textColor="#fff9fff7"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="30dp" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
