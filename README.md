@@ -27,10 +27,23 @@ The application uses the **Facebook Social Login** to identify the user, to get 
 
 #### Event Activity:
 
-Both the cover image and background should change for every event. The background one is the same of the cover but blurred. 
+Both the cover image and background should change for every event. The background one is the same of the cover but blurred.
 
 <p align="center">
   <img src="images/event0.png" width="300">
   <img src="images/event1.png" width="300">
   <img src="images/event2.png" width="300">
 </p>
+
+
+#### Notification:
+
+If the user has expressed its interest on a specific event the application will remind the user the day of the event with a notification.
+
+<p align="center">
+  <img src="images/notification.png" width="500">
+</p>
+
+#### Notes:
+
+The application can not be launched as it needs some code review because is based on some Facebook API that now are deprecated. 
