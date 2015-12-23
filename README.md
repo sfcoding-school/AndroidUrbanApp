@@ -1,6 +1,6 @@
 
 
-# ANDROID APPLICATION
+# ANDROID APPLICATION WORKING PROTO
 This is an example of **Android application**, this application can be used as **prototype** for a Club, it keeps updated the user about future events, artist videos, prices and bus time schedules, using it can allow the final user to access a special list discount.  
 
 
@@ -13,7 +13,7 @@ The application uses the **Facebook Social Login** to identify the user, to get 
 #### Facebook Login Activity:
 
 <p align="center">
-  <img src="images/StartPage.png" width="300">
+  <img src="images/StartPage.png" width="200">
 </p>
 
 #### User Profile Logged-In
@@ -21,8 +21,8 @@ The application uses the **Facebook Social Login** to identify the user, to get 
 **Two different UIs:**
 
 <p align="center">
-  <img src="images/loggedin1.png" width="300">
-  <img src="images/loggedin.png" width="300">
+  <img src="images/loggedin1.png" width="200">
+  <img src="images/loggedin.png" width="200">
 </p>
 
 #### Event Activity:
@@ -30,9 +30,9 @@ The application uses the **Facebook Social Login** to identify the user, to get 
 Both the cover image and background should change for every event. The background one is the same of the cover but blurred.
 
 <p align="center">
-  <img src="images/event0.png" width="300">
-  <img src="images/event1.png" width="300">
-  <img src="images/event2.png" width="300">
+  <img src="images/event0.png" width="200">
+  <img src="images/event1.png" width="200">
+  <img src="images/event2.png" width="200">
 </p>
 
 
