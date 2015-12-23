@@ -3,6 +3,8 @@
 # ANDROID APPLICATION WORKING PROTO
 This is an example of **Android application**, this application can be used as **prototype** for a Club, it keeps updated the user about future events, artist videos, prices and bus time schedules, using it can allow the final user to access a special list discount.  
 
+**[HERE](https://github.com/sn1p3r46/urbanserver) you can find the android application repository**  
+
 
 ## Conceptual Working Demo
 
