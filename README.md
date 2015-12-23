@@ -46,4 +46,4 @@ If the user has expressed its interest on a specific event the application will 
 
 #### Notes:
 
-The application can not be launched as it needs some code review because is based on some Facebook API that now are deprecated. 
+The application can not be launched as it is, in fact it needs some code review because is based on some Facebook API that now are deprecated. 
