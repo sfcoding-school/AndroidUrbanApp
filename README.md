@@ -5,6 +5,9 @@ This is an example of **Android application**, this application can be used as *
 
 **[HERE](https://github.com/sn1p3r46/urbanserver) you can find the REST server repository**  
 
+#### Author: 
++ [Andrea Galloni](http://www.andreagalloni.eu) (andrea [dot] galloni [at] studenti [dot] unitn [dot] it )
+
 
 ## Conceptual Working Demo
 
